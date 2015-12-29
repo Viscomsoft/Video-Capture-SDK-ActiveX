@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UpgradeLog>
+    <Settings>
+        <Setting
+            Name = "LogFile"
+            Value = "Project1.log"
+        />
+        <Setting
+            Name = "GenerateInterfacesForClasses"
+            Value = "FALSE"
+        />
+        <Setting
+            Name = "ProjectName"
+            Value = "Project1"
+        />
+        <Setting
+            Name = "OutputName"
+            Value = "Project1.vbproj"
+        />
+        <Setting
+            Name = "OutputDir"
+            Value = "C:\installer\VideoCap\VB\TVTuner\Project1.NET"
+        />
+        <Setting
+            Name = "ProjectPath"
+            Value = "C:\installer\VideoCap\VB\TVTuner\Project1.vbp"
+        />
+        <Setting
+            Name = "MigrateProjectTo"
+            Value = "0"
+        />
+    </Settings>
+    <File
+        OldPath = "C:\installer\VideoCap\VB\TVTuner\Form1.frm"
+        NewPath = "C:\installer\VideoCap\VB\TVTuner\Project1.NET\Form1.vb"
+        FileType = "Form"
+        Upgraded = "True"
+    >
+        <Section Name = "cboVideoFormat_Click" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object strVideoFormat.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object videoFormatIndex.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "2075"
+            >Event cboVideoFormat.SelectedIndexChanged may fire when form is initialized.</Issue>
+        </Section>
+        <Section Name = "cboVideoInput_Click" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object strVideoInput.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object videoinputindex.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "2075"
+            >Event cboVideoInput.SelectedIndexChanged may fire when form is initialized.</Issue>
+        </Section>
+        <Section Name = "cbovideostand_Click" >
+            <Issue
+                Type = "Runtime"
+                Number = "2075"
+            >Event cbovideostand.SelectedIndexChanged may fire when form is initialized.</Issue>
+        </Section>
+        <Section Name = "Check1_Click" >
+            <Issue
+                Type = "Runtime"
+                Number = "2075"
+            >Event Check1.CheckStateChanged may fire when form is initialized.</Issue>
+        </Section>
+        <Section Name = "Command1_Click" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object strVideoInput.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object videoinputindex.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object IsTVDevice.</Issue>
+        </Section>
+        <Section Name = "Command2_Click" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object strFileName.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object result.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1046"
+                PME = "LoadPicture"
+            >LoadPicture Parameter 'Size' is not supported, and was removed.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1046"
+                PME = "LoadPicture"
+            >LoadPicture Parameter 'ColorDepth' is not supported, and was removed.</Issue>
+        </Section>
+        <Section Name = "Command3_Click" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object Me.VideoCap1.DrawText.</Issue>
+        </Section>
+        <Section Name = "Form_Load" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object myVideoInput.Name.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object myVideoFormat.Name.</Issue>
+        </Section>
+        <Section Name = "List1_Click" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object strNO.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object Me.VideoCap1.DrawText.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "2075"
+            >Event List1.SelectedIndexChanged may fire when form is initialized.</Issue>
+        </Section>
+    </File>
+</UpgradeLog>
+
