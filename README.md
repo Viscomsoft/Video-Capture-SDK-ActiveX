@@ -2,7 +2,7 @@
 
 Introduction
 
-Viscomsoft Video Capture SDK (VideoCap SDK ActiveX) help windows developer to add video capture function to their applications
+Viscomsoft Video Capture SDK (VideoCap SDK ActiveX) help windows developer to add video capture functions to their applications.
 
 Download
 
